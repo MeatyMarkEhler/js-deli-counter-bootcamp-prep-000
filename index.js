@@ -20,4 +20,4 @@ function nowServing(line) {
 
 //announces the first item and .shift() the remaining line
 
-//function currentLine(line) {return line.each[+1]; `The line is currently: ${line[+1]} else; "The line is currently: empty."
+//function currentLine(line) {return line.forEach[+1]; `The line is currently: ${line.length[+1]} else; "The line is currently: empty."

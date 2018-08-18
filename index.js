@@ -35,7 +35,7 @@ function currentLine(katzDeliLine) {
   } 
   const nosAndNoms = [];
   
-  for (i = 0 ; katzDeliLine.length > i; i++){
+  for (i === 0 ; katzDeliLine.length > i; i++){
   
   nosAndNoms.push(`${i+1}. ${katzDeliLine[i]}`);
   }

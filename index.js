@@ -25,9 +25,9 @@ function currentLine(line) {
   } for (i = 0,i < line.length, i++); {
     linelist.push(line.shift())}
   }
-  return `The like is currently: ${
+  return `The like is currently: ${`
 }
 
 
-
+// linelist.
 //{return line.forEach[+1]; `The line is currently: ${line.length[+1]} else; "The line is currently: empty."

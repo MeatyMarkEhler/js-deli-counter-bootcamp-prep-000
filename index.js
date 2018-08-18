@@ -4,7 +4,7 @@ function takeANumber(line, name){
     return `Welcome, ${name} you are number  ${line + 1} in line.`
   } else {
     line.push(name)
-    return `Welcome, ${name} you are number  ${[line] + 1} in line.`
+    return `Welcome, ${name} you are number  ${line + 1} in line.`
   }
 }
 

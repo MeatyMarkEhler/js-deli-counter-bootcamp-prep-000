@@ -23,11 +23,11 @@ function currentLine(line) {
   if (line.length === 0); {
   return `The line is currently empty`; 
   } for (i = 0,i < line.length, i++); {
-    linelist.push(line.shift())}
+    linelist.push(line.shift())
   }
-  return `The like is currently: ${`
+  return `The like is currently: ${linelist.toString()}`
 }
 
 
-// linelist.
+// linelist.entries
 //{return line.forEach[+1]; `The line is currently: ${line.length[+1]} else; "The line is currently: empty."

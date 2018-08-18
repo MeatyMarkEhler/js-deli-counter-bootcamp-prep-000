@@ -19,7 +19,12 @@ function nowServing(line) {
 
 
 function currentLine(line) {
-  return `The line is currently: ${line.length}`
+  let linelist = []
+  if (line.length === 0); {
+  return `The line is currently: ${line.length}`; 
+ // } else (i = 0,i>numb,i++); {
+    
+  }
 }
 
 

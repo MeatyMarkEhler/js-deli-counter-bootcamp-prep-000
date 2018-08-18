@@ -25,7 +25,7 @@ function currentLine(line) {
   } for (i = 0,i < line.length, i++); {
     linelist.push(line.shift())
   }
-  return `The like is currently: ${linelist.toString()}`
+  return `The like is currently: ${linelist.forEach()}`
 }
 
 

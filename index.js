@@ -1,10 +1,11 @@
 function takeANumber(line, name){
   if (line === 0) {
-    line.push(name);
+    line.unshift(name);
     return `Welcome ${name} you are ${line + 1} in line.`
   } else {
-    line.unshift(name)
+    line.push(name)
   }
+  return
 }
 
 //`Welcome, Ada. You are number ${line + 1} in line.`

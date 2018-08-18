@@ -29,5 +29,5 @@ function currentLine(line) {
 }
 
 
-// linelist.entries
+// linelist.entries(line)
 //{return line.forEach[+1]; `The line is currently: ${line.length[+1]} else; "The line is currently: empty."

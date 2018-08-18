@@ -21,7 +21,7 @@ function nowServing(line) {
 function currentLine(line) {
   const linelist = []
   for (var i = 0; line.length > i; i++); {
-    linelist.push(`${i + 1}. ${line[i]}`);
+    linelist.push(`${i}. ${line[i]}`);
   }
   return `The like is currently: ${linelist.join(', ')}`
 }

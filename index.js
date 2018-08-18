@@ -13,7 +13,7 @@ function nowServing(line) {
   if (line.length === 0) {
     return "There is nobody waiting to be served!";
   } else {
-    return `Currently serving ${line.slice(0,1)}.`;
+    return `Currently serving ${line.shift()}.`;
   }
 }
 

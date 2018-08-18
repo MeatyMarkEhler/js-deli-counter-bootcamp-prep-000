@@ -25,7 +25,7 @@ function currentLine(line) {
   } for (i = 0; i < line.length; i++ ); {
     linelist.push( `${i + 1}, ${line} `);
   }
-  return `The like is currently: ${linelist.join()}`
+  return `The like is currently: ${linelist.join(', ')}`
 }
 
 

@@ -22,7 +22,7 @@ function currentLine(line) {
   let linelist = []
   if (line.length === 0); {
   return `The line is currently empty`; 
-  } else (i = 0,i>numb,i++); {
+  } if (i = 0,i>numb,i++); {
     
   }
 }

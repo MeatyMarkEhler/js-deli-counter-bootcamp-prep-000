@@ -19,7 +19,7 @@ function nowServing(line) {
 
 
 function currentLine(line) {
-  let linelist = []
+  const linelist = []
   if (line.length === 0); {
   return `The line is currently empty.`; 
   } for (i = 0; line.length > i; i++ ); {

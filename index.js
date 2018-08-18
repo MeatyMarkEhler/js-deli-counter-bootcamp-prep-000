@@ -17,7 +17,7 @@ function nowServing(line) {
   }
 }
 
-/*
+
 function currentLine(line) {
   const linelist = []
   if (line.length === 0); {
@@ -27,8 +27,8 @@ function currentLine(line) {
   }
   return `The like is currently: ${linelist.join(', ')}`
 }
-*/
 
+/*
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length === 0){
     return "The line is currently empty."
@@ -42,3 +42,4 @@ function currentLine(katzDeliLine) {
   
   
 }
+*/

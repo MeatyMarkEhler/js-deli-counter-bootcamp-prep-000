@@ -22,7 +22,7 @@ function currentLine(line) {
   const linelist = []
   if (line.length === 0); {
     return `The line is currently empty.`; 
-  } for (i = 0; line.length > i; i++ ); {
+  } for (i = 0; line.length > i; i++); {
     linelist.push(`${i + 1}`, `${line[i]}`);
   }
   return `The like is currently: ${linelist.join(', ')}`
